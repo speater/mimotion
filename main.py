@@ -37,6 +37,8 @@ def login(_user, password):
     _headers = {
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
         "User-Agent": "MiFit/4.6.0 (iPhone; iOS 14.0.1; Scale/2.00)"
+        
+        
     }
     data1 = {
         "client_id": "HuaMi",
