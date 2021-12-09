@@ -27,7 +27,7 @@ def get_code(location):
     code_pattern = re.compile("(?<=access=).*?(?=&)")
     code = code_pattern.findall(location)[0]
     return code
-
+  
 
 def login(_user, password):
     """
